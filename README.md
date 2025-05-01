@@ -20,6 +20,6 @@ This project automates the deployment of a secure, production-ready Azure SQL en
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/srilakshmimohan/azure-iac-project
+   git clone https://github.com/srilakshmimohan/azure-iac-terraform
    cd azure-sql-iac
 
