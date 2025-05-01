@@ -1,0 +1,15 @@
+git init
+
+touch .gitignore
+nano .gitignore -- opens a file and paste the file which should not be added to GitHub
+
+
+git add .
+git commit -m "Initial commit - Azure Terraform project"
+git status
+git log
+
+git remote add origin https://github.com/srilakshmimohan/azure-iac-project
+
+git push -u origin main
+
