@@ -7,6 +7,7 @@ This project automates the deployment of a secure, production-ready Azure SQL en
 - Creates an Azure Resource Group
 - Deploys a Virtual Network with Subnets
 - Sets up a Network Security Group (NSG)
+- Deploys a Storage account and container
 - Provisions an Azure SQL Server
 - Uses Infrastructure as Code (IaC) with Terraform for reproducible deployments
 
