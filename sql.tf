@@ -6,3 +6,14 @@ resource "azurerm_mssql_server" "sql" {
   administrator_login          = "azureuser"
   administrator_login_password = "4-v3ry-53cr37-p455w0rd"
 }
+
+resource "azurerm_mssql_database" "db" {
+  name      = "app-database"
+  server_id = azurerm_mssql_server.sql.id
+  collation = "SQL_Latin1_General_CP1_CI_AS"
+  sku_name  = "Basic"
+
+  tags = {
+    environment = "Production"
+  }
+}
