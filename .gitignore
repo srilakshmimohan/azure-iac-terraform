@@ -6,3 +6,5 @@ terraform.tfvars
 *.log
 *.bak
 *.zip
+tfplan
+*.tfplan

@@ -1,6 +1,6 @@
-resource "azurerm_network_security_group" nsg{
-    name="nsg-iac"
-    location            = azurerm_resource_group.rg-iac.location
+resource "azurerm_network_security_group" "nsg" {
+  name                = "nsg-iac"
+  location            = azurerm_resource_group.rg-iac.location
   resource_group_name = azurerm_resource_group.rg-iac.name
 
   security_rule {
